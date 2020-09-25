@@ -1,0 +1,178 @@
+.continer-about{
+    width: 70%;
+    margin: auto;
+    position: relative;
+    margin-bottom: 50px;
+}
+.continer-about-h1{
+    text-align: center;
+    margin: auto;
+}
+.continer-about h1{
+    position: relative;
+    color: #ffd04f;
+    margin: 7% 0%;
+    font-size: 34px;
+}
+.continer-about-article{
+    background: rgb(44 45 45 / 51%);
+    box-shadow: 4px -2px 20px 17px #929292;
+    margin-top: 8.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+}
+.continer-about-article-img img{
+    width: 90%;
+    /* margin: auto; */
+    padding: 5%;
+}
+.caption{
+    position: sticky;
+    bottom: 0;
+    padding: 0px;
+    width: 100%;
+    background: #161717f0
+   
+}
+.caption-div{
+    padding: 10px;
+}
+.caption h2{
+    color: #ffd04f;
+    color: ffd04f;
+    padding: 2% 5%;
+}
+.caption-div p{
+    color: #ffffffd4;
+    font-size: 23px;
+    padding-left: 5%;
+    line-height: 41px;
+}
+.continer-redmore a{
+    background-color: #ffd04f;
+   
+    border-radius: 2rem;
+    color: #000000;
+    padding: 10px 25px;
+    margin-left: 40%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    display: inline-block;
+    /* cursor: pointer; */
+    outline: none;
+    
+}
+.continer-redmore a:hover{
+    background-color:#fffbf0;
+    color: black;
+    box-shadow: -1px 1px 20px 0px #ffd04f;
+}
+.gallery {
+    width: 75%;
+    margin: 6% auto;
+    padding: 5px;
+    padding-left: 6%;
+    background: #a4a8b121;
+    box-shadow: 0 1px 20px 7px rgb(255 255 255 / 48%);
+    position: relative;
+ }
+.section-gallery{
+      margin: 3%;
+  }
+.gallery  div {
+    position: relative;
+   display: inline-flex;
+    padding: 5px;
+    width: 20%;
+    height: 200px;
+    margin: 5px;
+    
+  }
+.gallery img{
+      width: 100%;
+      height: 200px;
+  }
+.gallery div img {
+    transition: .1s transform;
+    transform: translateZ(0); 
+  }
+  
+.gallery  div:hover {
+    z-index: 1;
+  }
+  /*another sizs for div on hover*/
+.gallery div:hover  img {
+    transform: scale(1.2,1.2);
+    transition: .2s transform;
+  }
+  
+.cf:before, .cf:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  
+.cf:after {
+    clear: both;
+  }
+
+
+/*media for tap*/
+@media all and (min-width:480px) and (max-width: 860px){
+    .continer-about {
+        width: 86%;
+    }
+    .continer-about h1 {
+        font-size: 29px;
+        margin-top: 7%;
+    }
+    .continer-redmore a{
+        margin-left: 35%;
+    }
+    .gallery{
+        width: auto;
+    }
+    .gallery div {
+        width: 45%;
+    }
+}
+
+/*for mobil*/
+
+@media (max-width: 480px){
+    .continer-about h1 {
+        font-size: 23px;
+    }
+    .continer-about-article{
+        margin-top: 5rem ;
+        box-shadow: 0px -2px 16px 2px #929292;
+    }
+    .continer-about{
+        width: 85%;
+    }
+    .caption h2{
+        font-size: 21px;
+    }
+    .caption-div p {
+        font-size: 19px;
+        line-height: 29px;
+    }
+    .continer-redmore a {
+        padding: 5px 19px;
+        margin-left: 25%;
+        font-size: 19px;
+    }
+    .gallery{
+        margin: auto;
+        width: 85%;
+        padding-left: 0px;
+    }
+    .gallery div{
+        width: 100%;
+        margin: 1px;
+        padding: 1px;
+    }
+}

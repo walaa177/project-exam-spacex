@@ -1,0 +1,84 @@
+.caption{
+    position: relative;
+}
+.caption-div{
+    color: #ffffffd4;
+    font-size: 23px;
+    padding-left: 5%;
+    font-family: arial, sans-serif;
+    line-height: 41px;
+}
+.continer-about {
+    width: 70%;
+    margin: auto;
+    position: relative;
+    margin-bottom: 50px;
+}
+.caption-div a{
+    color: #78a1bb;
+    margin: 10px;
+}
+.caption-div a:hover{
+    color: #ffd04f;
+
+}
+.button2{
+    width: auto;
+    padding: 10px;
+    margin-top: 50px;
+}
+.buttonHolder{
+    margin: 55px;
+}
+.buttonHolder a:hover{
+    box-shadow: -1px 1px 20px 0px #ffd04f;
+}
+/*media for tap*/
+@media all and (min-width:480px) and (max-width: 860px){
+    .continer-about {
+        width: 86%;
+    }
+    .continer-about h1 {
+        font-size: 29px;
+        margin-top: 7%;
+    }
+    .continer-redmore a{
+        margin-left: 35%;
+    }
+    .gallery{
+        width: auto;
+    }
+    .gallery div {
+        width: 45%;
+    }
+}
+/*for mobil*/
+
+@media (max-width: 480px){
+    .continer-about h1 {
+        font-size: 24px;
+    }
+    .continer-about-article{
+        margin-top: 5rem ;
+        box-shadow: 0px -2px 16px 2px #929292;
+    }
+    .continer-about{
+        width: 85%;
+    }
+    .caption h2{
+        font-size: 23px;
+    }
+    .caption-div p {
+        font-size: 22px;
+        line-height: 29px;
+    }
+    .continer-redmore a {
+        padding: 5px 19px;
+        margin-left: 25%;
+        font-size: 19px;
+    }
+    .caption-div{
+        font-size: 20px;
+        line-height: 29px;
+    }
+}    
